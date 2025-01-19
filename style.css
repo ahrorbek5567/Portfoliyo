@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    scroll-behavior: smooth;
+  }
+  @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+  #hero {
+    height: 100vh;
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .highlight {
+    color: #ffd700;
+  }
+  
+  #about, #projects, #contact {
+    padding: 50px;
+    text-align: center;
+  }
+  #scrollButton{
+    padding: 10px 20px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  #scrollButton:hover {
+    background: #6a11cb;
+  }
+  .progress {
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  .progress-bar {
+    height: 20px;
+    width: 0;
+    background: #2575fc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: width 2s;
+  }
+  
+  .project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .project-card {
+    padding: 20px;
+    background: #fae8e8;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    border: 2px solid grey;
+    box-shadow: 0 0 10px yellowgreen;
+    
+  }
+
+  .project-card:hover{
+    transform: scale(1.1);
+  }
+  
+  form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  form button {
+    padding: 10px 20px;
+    background: #2575fc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background: #6a11cb;
+  }

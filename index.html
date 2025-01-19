@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Men haqimda Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1> Xush kelibsiz <span class="highlight">Mening portfelimga</span></h1>
+    <p>Ijodiy dasturchi | Innovatsion fikrlovchi</p>
+    <a target="_blank" href="two.html"><button id="scrollButton">Ko'proq ko'rish</button></a>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Men haqimda</h2>
+    <p>Men 17 yoshli ishtiyoqli dasturchiman, o'rganishni va ajoyib loyihalarni yaratishni xohlayman.</p>
+    <div class="progress">
+      <label>HTML</label>
+      <div class="progress-bar" data-progress="70"></div>
+      <label>CSS</label>
+      <div class="progress-bar" data-progress="80"></div>
+      <label>JavaScript</label>
+      <div class="progress-bar" data-progress="95"></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Mening Loyihalarim</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>HTML Loyihasi</h3>
+        <p>Oddiy, ammo ijodiy ochilish sahifasi dizayni.</p>
+      </div>
+      <div class="project-card">
+        <h3>CSS Loyihasi</h3>
+        <p>Mukammal va juda chiroyli web Sayt ko'rinishi</p>
+      </div>
+      <div class="project-card">
+        <h3>JavaScript</h3>
+        <p>Animatsiyalarga boy va juda chiroyli</p>
+      </div>
+    </div><br>
+   <a target="_blank" href="three.html"> <button id="scrollButton">Batafsil ko'rish</button></a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Men Bilan Bog'lanish</h2>
+    <form id="contactForm">
+      <input id="aname" type="text" placeholder="Ismingizni kiriting" required>
+      <input id="phone" type="number" placeholder="Telefon raqamingizni kiriting" required>
+      <textarea id="email" placeholder="Menga jo'natilishi kerak bo'lgan xabarni kiriting" required></textarea><br>
+      <button id="sendbtn" type="button">Send Message</button>
+    </form>
+  </section>
+  <script src="main.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</body>
+</html>
